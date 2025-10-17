@@ -27,6 +27,7 @@ export default function RootLayout({ children }) {
         <nav className="flex justify-center py-3 gap-3">
           <Link href="/">홈페이지로 이동</Link>
           <Link href="/list">list페이지로 이동</Link>
+          <Link href="/cart">장바구니</Link>
         </nav>
         {children}
       </body>
